@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "fields": [
+      {
+        "field": "USERNAME",
+        "displayName": "Clicksend Username",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Clicksend account username",
+        "example": "default",
+        "helpSection": "The username associated with your account"
+      },
+      {
+        "field": "PASSWORD",
+        "displayName": "Clicksend Password",
+        "type": "password",
+        "minLength": 1,
+        "maxLength": 60,
+        "required": true,
+        "description": "Clicksend account password",
+        "example": "s3cr3t",
+        "helpSection": "The password associated with your account"
+      },
+      {
+        "field": "AUTH_TYPE",
+        "displayName": "Clicksend Auth Type",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Clicksend API Auth Type",
+        "default": "BASIC_AUTH",
+        "example": "BASIC_AUTH",
+        "helpSection": ""
+      },
+      {
+      "field": "SERVER_URL",
+      "displayName": "Clicksend API URL",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 90,
+      "required": true,
+      "description": "Clicksend API URL",
+      "default": "https://rest.clicksend.com/",
+      "helpSection": "Clicksend API URL"
+    }
+    ]
+  }
